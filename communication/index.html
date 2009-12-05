@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="css/all_css.css" />
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="js/all_js.js"></script>
+<title> Feeltagged - Arduino app </title>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+<form id="feel" action="python.cgi" method="post">
+<div id="feel">
+<span> How do you feel ?</span>
+
+<span id="left">Sad</span>
+<span id="right">Happy</span>
+
+<div id="slider"></div>
+
+</div>
+
+<div id="weather">
+<span> Do you like the weather outside ? </span>
+<fieldset class="radio">
+<label id="label"><input name="wl" class="wl" type="radio" value="yes" />Yes</label>
+<label id="label"><input name="wl"  class="wl" type="radio" value="no" />No</label>    
+<label id="label"><input name="wl" class="wl" type="radio" value="not" />Not Really</label>
+</fieldset>
+
+</div>
+
+<div id="bored">
+<span> Are you bored ? </span>
+
+<fieldset class="radio">
+<label id="label"><input name="bd" class="bd" type="radio" value="yes" />Yes</label>
+<label id="label"><input name="bd" class="bd" type="radio" value="no" />No</label>    
+<label id="label"><input name="bd" class="bd" type="radio" value="not" />Not Really</label>
+<label id="label"><input name="bd" class="bd" type="radio" value="wrk" />I have work</label>
+<label id="label"><input name="bd" class="bd" type="radio" value="hbb" />I enjoy my hobby</label>
+</fieldset>
+
+<input id="x" type="submit" name="button" value="Tag me" class="button"/>
+
+</div>
+
+</form>
+
+</div>
+
+<div id="messageBox1">
+	<h3>Oops! Something is missing. Don't be sad you can fix it.</h3> 
+  <ul>
+	<li></li>
+  </ul> 
+</div> 
+
+<div id="result">
+	<p id="valr">You have no feelings</p>
+</div>
+</body>
+</html>

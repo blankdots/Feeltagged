@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*----------------------------------------------
+		VALIDATE
+----------------------------------------------*/
+
+label.error { float: none; color: #C40000; padding-left: .5em; vertical-align: top; width:500px;  }
+label {padding:3px;}
+#messageBox1 { 
+	display:none; 
+	width:480px; 
+	border:1px solid #C40000; 
+	background-color:#FFDEDE; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	/*border-radius:3px;*/ 
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+#messageBox1 ul li {background-image:url("../img/false.png"); background-repeat:no-repeat; background-position:left; margin:0; padding-left:15px; list-style-type:none; }
+#messageBox1 ul {margin-top:5px; padding-left:10px;}
+#messageBox1 h3 {color: #C40000; padding:5px; margin:0; font-size:12px;}
+
