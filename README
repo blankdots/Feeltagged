@@ -14,3 +14,16 @@ I used Python 2.5
 Python modules:
 http://pyserial.sourceforge.net/
 http://code.google.com/p/python-twitter/
+===================================
+Components
+
+1 x Arduino Duemilanove (or Diecimila)
+1 x character LCD
+3 x transistor 2N2222
+3 x super bright red LEDs
+3 x super bright green LEDs
+1 x super bright blue LED
+1 x potentiometer B10k
+
+proper resistance for each LED (i used 220 ohm) and for each transistor (i used 1 kohm)
+===================================
