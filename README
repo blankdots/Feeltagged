@@ -18,7 +18,7 @@ http://code.google.com/p/python-twitter/
 Components
 
 1 x Arduino Duemilanove (or Diecimila)
-1 x character LCD
+1 x alpha-numeric LCD
 3 x transistor 2N2222
 3 x super bright red LEDs
 3 x super bright green LEDs
