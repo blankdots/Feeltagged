@@ -1,1 +1,16 @@
-Arduino - research project
+===================================
+FeelTagged - Arduino research project
+
+www.blankdots.com
+===================================
+Demo
+
+video demo: http://vimeo.com/4930674
+flickr set: http://www.flickr.com/photos/blankdots/sets/72157617049599313/
+
+===================================
+I used Python 2.5 
+
+Python modules:
+http://pyserial.sourceforge.net/
+http://code.google.com/p/python-twitter/
